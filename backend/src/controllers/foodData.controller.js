@@ -3,6 +3,7 @@ const asyncHandler = require("../utils/asyncHandler.js");
 const ApiResponse = require("../utils/ApiResponse.js");
 const ApiError = require("../utils/ApiError.js");
 
+
 const displayFoodData = asyncHandler(async(req, res)=>{
     // console.log(global.food_items);
     return res

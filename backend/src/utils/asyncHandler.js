@@ -8,6 +8,7 @@ const asyncHandler = (requestHandler) =>{
 module.exports = asyncHandler;
 
 
+
 //using Higher order functions
 
 // const asyncHandler = (func) => async (req, res, next) => {
