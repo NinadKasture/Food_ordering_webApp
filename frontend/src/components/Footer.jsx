@@ -13,6 +13,7 @@ function Footer() {
           <span className="text-muted">© {new Date().getFullYear()} Webomato. All Rights Reserved.</span>
         </div>
 
+
       </footer>
     </div>
   );

@@ -16,6 +16,7 @@ function Navbar() {
   const navigate = useNavigate();
   const location = useLocation(); // Hook to track location changes
 
+  
 
   // const fetchGoogleAuthData = async () => {
   //   const response = await fetch("https://food-ordering-webapp.onrender.com/api/auth/google/data", {

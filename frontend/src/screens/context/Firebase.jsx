@@ -19,6 +19,7 @@ const firebaseConfig = {
     measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
   };
   
+  
 
 const firebaseApp = initializeApp(firebaseConfig); // Now, an instance of firebase app is created
 const firebaseAuth = getAuth(firebaseApp);

@@ -13,6 +13,7 @@ const reducer = (state, action) => {
             newArr.splice(action.index, 1);
             return newArr;
 
+            
         case "DROP":
             let emptyArray = [];
             return emptyArray;

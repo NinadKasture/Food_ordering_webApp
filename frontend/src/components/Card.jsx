@@ -16,6 +16,7 @@ function Card(props) {
   let options = props.options;
   let priceOptions = Object.keys(options);
 
+  
   const handleClick = () => {
     if (!localStorage.getItem("token")) {
       navigate("/login")

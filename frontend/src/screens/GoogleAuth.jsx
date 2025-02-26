@@ -13,6 +13,7 @@ function GoogleAuth() {
 
     const result2 = result.replace('/authgoogle', '');
 
+    
     try {
       const response = await fetch(
         result2,

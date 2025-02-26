@@ -17,6 +17,7 @@ function Home() {
       }
     });
 
+    
     response = await response.json();
     setFoodItems(response.data[0]);
     setFoodCat(response.data[1]);

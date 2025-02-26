@@ -22,6 +22,7 @@ const OVERLAY_STYLES = {
   zIndex: 1000
 }
 
+
 export default function Modal({ children, onClose }) {
 
   return ReactDom.createPortal(
