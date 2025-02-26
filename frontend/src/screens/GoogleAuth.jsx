@@ -4,7 +4,7 @@ function GoogleAuth() {
   const handleGoogleRedirect = async () => {
 
     const currentURL = window.location.href;
-    const link2 = "https://dipteshs-food-ordering-webapp.onrender.com/api/auth/google/webomato"
+    const link2 = "https://food-ordering-webapp.onrender.com/api/auth/google/webomato"
     const baseURL = "https://webomato.netlify.app";
 
     const suffix = currentURL.replace(baseURL, "");

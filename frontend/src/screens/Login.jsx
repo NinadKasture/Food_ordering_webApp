@@ -15,7 +15,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://dipteshs-food-ordering-webapp.onrender.com/api/auth/login', {
+      const response = await fetch('https://food-ordering-webapp.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -60,7 +60,7 @@ function Login() {
   },[onAuthStateChanged])
 
   const firebaseAuthentication = async (user) => {
-    const response = await fetch("https://dipteshs-food-ordering-webapp.onrender.com/api/auth/oauthlogin", {
+    const response = await fetch("https://food-ordering-webapp.onrender.com/api/auth/oauthlogin", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -96,7 +96,7 @@ function Login() {
 
 
   // useEffect(() => {
-  //   fetch("https://dipteshs-food-ordering-webapp.onrender.com/api/auth/user", {
+  //   fetch("https://food-ordering-webapp.onrender.com/api/auth/user", {
   //     method: "GET",
   //     credentials: "include", // Ensures cookies (session) are sent
   //   })
@@ -114,7 +114,7 @@ function Login() {
   
 
   // const handleGoogle = () => {
-  //   window.location.href = "https://dipteshs-food-ordering-webapp.onrender.com/api/auth/google";
+  //   window.location.href = "https://food-ordering-webapp.onrender.com/api/auth/google";
   // };
 
   const onChange = (e) => {
