@@ -179,14 +179,14 @@ function Signup() {
           
         </button>
 
-        <button onClick={()=>{
+        {/* <button onClick={()=>{
           firebase.signInWithGithub()
           }}
           className="m-3 btn btn-success"
         >
           Sign up using Github
           
-        </button>
+        </button> */}
 
       </div>
       <div>

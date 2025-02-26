@@ -186,14 +186,14 @@ function Login() {
           
         </button>
 
-        <button onClick={()=>{
+        {/* <button onClick={()=>{
           firebase.signInWithGithub()
           }}
            className="m-3 btn btn-success"
         >
           Sign in using Github
           
-        </button>
+        </button> */}
 
         {/* Extra Content Div BELOW the Form */}
         {
